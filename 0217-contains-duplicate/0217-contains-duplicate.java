@@ -1,11 +1,15 @@
 class Solution {
     public boolean containsDuplicate(int[] nums) {
-        
-            List<Integer> list = Arrays.stream(nums).boxed().collect(Collectors.toList());
-    Set<Integer> set = new HashSet<Integer>(list);
- 
-    return nums.length != set.size();
     
-            
+        HashSet hset = new HashSet<Integer>();
+        
+        for (int n : nums) {
+            if (hset.contains(n))
+                return true;
+            else
+                hset.add(n);
+        }
+           
+        return false;
     }
 }
