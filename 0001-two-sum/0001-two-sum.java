@@ -1,7 +1,7 @@
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         
-        // Keys: element of nums, Values: Corresponding indexes
+        // Keys: element of nums, Values: Corresponding paired element index
         Map<Integer, Integer> map = new HashMap<Integer, Integer>();
         
         for (int i = 0 ; i < nums.length; i++) {
