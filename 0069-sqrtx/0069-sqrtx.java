@@ -4,7 +4,7 @@ class Solution {
     if (x <=1 )
       return x;
 
-    int left = 0;
+    int left = 2;
     int right = x/2;
     int mid;
     long squared;
