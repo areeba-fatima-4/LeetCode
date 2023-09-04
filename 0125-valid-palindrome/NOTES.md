@@ -1,0 +1,4 @@
+- Use two pointers approach
+- Increment left only if it is a letter or a digit
+- Decrement right only if it is a letter or a digit
+- Match both, if any unmatched char entry is there - return false
