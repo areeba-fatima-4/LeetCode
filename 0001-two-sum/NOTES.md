@@ -7,6 +7,8 @@
 * If no valid pair is found after traversing the whole array, it returns an array of length 1 to indicate no such pair exists.
 
 
+Approach 2
+
 ----------------------------------------------------------------------------------------------------------------------------
 
     public static int[] search(int[] arr, int targetSum) {
