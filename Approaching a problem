@@ -3,3 +3,8 @@
 - Optimize
 - Check if Binary search can be applied
 - Check if hashing can be applied
+
+
+For a circular array:
+Next element: (i+1)%n
+Previous element: (i-1+n)%n
