@@ -6,5 +6,5 @@
 
 
 For a circular array:
-Next element: (i+1)%n
-Previous element: (i-1+n)%n
+Next element: (i+1)%n instead of i++
+Previous element: (i-1+n)%n instead of i--
